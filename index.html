@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>LEAK - Digital Ecosystem</title>
+    
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=general-sans@400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="transition-overlay"></div>
+
+    <div class="loader">
+        <div class="loader-text">LEAK.</div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">LEAK<span>.</span></a>
+            
+            <ul class="nav-links desktop-menu">
+                <li><a href="#about" class="page-link">Tentang</a></li>
+                <li><a href="#services" class="page-link">Layanan</a></li>
+                <li><a href="#gallery" class="page-link">Karya</a></li>
+                <li><a href="#contact" class="page-link">Kontak</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+
+            <a href="#services" class="nav-cta page-link">Mulai Sekarang</a>
+        </div>
+    </nav>
+
+    <div class="menu-backdrop"></div> 
+    <div class="mobile-menu-overlay">
+        <ul class="mobile-nav-links">
+            <li><a href="#about" class="mobile-link">Tentang</a></li>
+            <li><a href="#services" class="mobile-link">Layanan</a></li>
+            <li><a href="#gallery" class="mobile-link">Karya</a></li>
+            <li><a href="#contact" class="mobile-link">Kontak</a></li>
+        </ul>
+    </div>
+
+    <button class="floating-feedback-btn" id="openFeedback">
+        <i class="far fa-comment-dots"></i>
+        <span class="tooltip">Beri Saran</span>
+    </button>
+
+    <div class="feedback-modal" id="feedbackModal">
+        <div class="feedback-content">
+            <button class="close-modal" id="closeFeedback"><i class="fas fa-times"></i></button>
+            <h3>Kotak Saran</h3>
+            <p>Bantu kami menjadi lebih baik.</p>
+            <form class="feedback-form">
+                <div class="input-group">
+                    <input type="text" placeholder=" " required>
+                    <label>Nama Anda</label>
+                </div>
+                <div class="input-group">
+                    <textarea placeholder=" " required></textarea>
+                    <label>Pesan / Saran</label>
+                </div>
+                <div class="rating-group">
+                    <span>Kepuasan:</span>
+                    <div class="stars">
+                        <i class="far fa-star" data-val="1"></i>
+                        <i class="far fa-star" data-val="2"></i>
+                        <i class="far fa-star" data-val="3"></i>
+                        <i class="far fa-star" data-val="4"></i>
+                        <i class="far fa-star" data-val="5"></i>
+                    </div>
+                </div>
+                <button type="submit" class="btn-submit">Kirim Masukan</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="page-content">
+        
+        <section id="hero" class="hero-section">
+            <div class="hero-bg"></div>
+            <div class="container hero-content">
+                <p class="hero-tag">LEMBAGA EKONOMI ANSOR KREATIF</p>
+                <h1 class="hero-title typing-text">
+                    Solusi Nyata <br>
+                    Untuk Ekonomi <br>
+                    <span class="highlight">Berkelanjutan.</span>
+                </h1>
+                <p class="hero-desc">Platform terintegrasi untuk kebutuhan harian, konstruksi, hingga jasa kreatif profesional. Satu pintu untuk semua solusi.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn-primary page-link">Jelajahi Layanan <i class="fas fa-arrow-down"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="marquee-section">
+            <div class="marquee-track">
+                <div class="marquee-item">PROFESIONAL • AMANAH • KREATIF • SOLUTIF • TERPERCAYA • EKONOMIS • BERKUALITAS •&nbsp;</div>
+                <div class="marquee-item">PROFESIONAL • AMANAH • KREATIF • SOLUTIF • TERPERCAYA • EKONOMIS • BERKUALITAS •&nbsp;</div>
+                <div class="marquee-item">PROFESIONAL • AMANAH • KREATIF • SOLUTIF • TERPERCAYA • EKONOMIS • BERKUALITAS •&nbsp;</div>
+                <div class="marquee-item">PROFESIONAL • AMANAH • KREATIF • SOLUTIF • TERPERCAYA • EKONOMIS • BERKUALITAS •&nbsp;</div>
+            </div>
+        </div>
+
+        <section id="about" class="about-section">
+            <div class="container about-grid">
+                <div class="about-text">
+                    <h2>Bukan Sekadar <br>Penyedia Jasa.</h2>
+                    <p>LEAK lahir dari semangat komunitas untuk memberdayakan ekonomi lokal. Kami menghubungkan tenaga profesional dengan kebutuhan Anda melalui sistem yang transparan.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3 data-target="500">0+</h3>
+                            <p>Proyek Selesai</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 data-target="50">0+</h3>
+                            <p>Mitra Ahli</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 data-target="24">0/7</h3>
+                            <p>Layanan Siap</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image img-reveal-wrapper">
+                    <img src="kerja.jpeg" alt="Teamwork">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Pilih Layanan Anda</h2>
+                    <p>Klik pada kartu untuk terhubung langsung dengan admin via WhatsApp.</p>
+                </div>
+
+                <div class="filter-container">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="harian">Harian</button>
+                    <button class="filter-btn" data-filter="konstruksi">Konstruksi</button>
+                    <button class="filter-btn" data-filter="transportasi">Transportasi</button>
+                    <button class="filter-btn" data-filter="kreatif">Kreatif</button>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card" data-category="harian">
+                        <div class="card-icon"><i class="fas fa-shopping-basket"></i></div>
+                        <div class="card-info"><h3>Toko Sembako</h3><p>Beras, Minyak, Gula harga grosir.</p></div>
+                        <div class="card-arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                    <div class="service-card" data-category="harian">
+                        <div class="card-icon"><i class="fas fa-gas-pump"></i></div>
+                        <div class="card-info"><h3>Gas Elpiji</h3><p>Layanan antar gas tepat waktu.</p></div>
+                        <div class="card-arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                    <div class="service-card" data-category="konstruksi">
+                        <div class="card-icon"><i class="fas fa-hard-hat"></i></div>
+                        <div class="card-info"><h3>Jasa Konstruksi</h3><p>Bangun & Renovasi rumah impian.</p></div>
+                        <div class="card-arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                    <div class="service-card" data-category="konstruksi">
+                        <div class="card-icon"><i class="fas fa-hammer"></i></div>
+                        <div class="card-info"><h3>Baja Ringan</h3><p>Pemasangan atap baja ringan garansi.</p></div>
+                        <div class="card-arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                    <div class="service-card" data-category="transportasi">
+                        <div class="card-icon"><i class="fas fa-car"></i></div>
+                        <div class="card-info"><h3>Rental Mobil</h3><p>Unit bersih, wangi, dan terawat.</p></div>
+                        <div class="card-arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                    <div class="service-card" data-category="transportasi">
+                        <div class="card-icon"><i class="fas fa-truck-moving"></i></div>
+                        <div class="card-info"><h3>Angkutan Barang</h3><p>Pindahan rumah atau kirim barang.</p></div>
+                        <div class="card-arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                    <div class="service-card" data-category="kreatif">
+                        <div class="card-icon"><i class="fas fa-rings-wedding"></i></div>
+                        <div class="card-info"><h3>Wedding Org.</h3><p>Wujudkan pernikahan impian Anda.</p></div>
+                        <div class="card-arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                    <div class="service-card" data-category="kreatif">
+                        <div class="card-icon"><i class="fas fa-camera"></i></div>
+                        <div class="card-info"><h3>Fotografer</h3><p>Dokumentasi momen berharga.</p></div>
+                        <div class="card-arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                     <div class="service-card" data-category="harian">
+                        <div class="card-icon"><i class="fas fa-tshirt"></i></div>
+                        <div class="card-info"><h3>Jasa Laundry</h3><p>Bersih, wangi, siap antar jemput.</p></div>
+                        <div class="card-arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Rekam Jejak.</h2>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item large img-reveal-wrapper">
+                        <img src="konstruksi.jpeg" alt="Konstruksi">
+                        <div class="gallery-overlay"><h3>Konstruksi</h3></div>
+                    </div>
+                    <div class="gallery-item img-reveal-wrapper">
+                        <img src="nikah.jpeg" alt="Wedding">
+                        <div class="gallery-overlay"><h3>Wedding</h3></div>
+                    </div>
+                    <div class="gallery-item img-reveal-wrapper">
+                        <img src="mobil.jpeg" alt="Automotive">
+                        <div class="gallery-overlay"><h3>Otomotif</h3></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div style="height: 0px;"></div>
+    </div> <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-top">
+                <h2>Siap mewujudkan kebutuhan Anda?</h2>
+                <a href="https://wa.me/6285713202328" class="btn-primary big-btn">Hubungi Kami</a>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-col">
+                    <h4>LEAK.</h4>
+                    <p>Jl. Mangunsari / Puntan Raya No.Kel, Mangunsari, Kec. Gn. Pati<br>Kota Semarang, Jawa Tengah 50228</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Sosial</h4>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+                <div class="footer-col copyright">
+                    <p>&copy; 2025 LEAK Dev Team.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.29/dist/lenis.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
